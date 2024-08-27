@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    display:flex;
+    justify-content: center;
+    gap : 10px;
+  }
+  .childig{
+    background-color: rgb(223, 68, 94);
+    height: 620px;
+    width: 350px;
+    text-align: center;
+    color:white;
+    font-size:25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:20px;
+  }
+  .kirim{
+
+    height: 35px;
+    width: 85px;
+    border-radius:10px;
+  }
+</style>
+<body>
+    <div class="childig">
+        <br><br>
+    <h2>CONTACT</h2><br><br>
+    <form action="submit.php" method="POST">
+        <label for="nama">Nama :</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="pesan">Pesan :</label>
+        <textarea id="pesan" name="pesan"></textarea><br><br><br><br>
+
+            <input class="kirim" type="submit" value="Kirim">
+    </form>
+    </div>
+</body>
+</html>
